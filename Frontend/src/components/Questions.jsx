@@ -2,7 +2,7 @@ import React from 'react'
 
 const Questions = () => {
   return (
-    <div>Questions</div>
+    <div className='text-center py-20'>Questions</div>
   )
 }
 
