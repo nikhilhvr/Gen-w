@@ -24,7 +24,7 @@ const Navbar = () => {
                               <a href="/About" className="block rounded hover:scale-105 text-white duration-200 ease-in-out">ABOUT</a>
                           </li>
                           <li>
-                              <a href="/Blogs" className="block rounded hover:scale-105 text-white duration-200 ease-in-out">BLOGS</a>
+                              <a href="/BlogsPage" className="block rounded hover:scale-105 text-white duration-200 ease-in-out">BLOGS</a>
                           </li>
                           <li>
                               <a href="/Contact" className="block rounded hover:scale-105 text-white duration-200 ease-in-out">CONTACT</a>
