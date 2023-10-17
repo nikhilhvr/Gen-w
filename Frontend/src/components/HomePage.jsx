@@ -86,7 +86,7 @@ const Home = () => {
             </div>
           </div>
           <footer className="bg-[#0096C7]">
-            <div className="md:w-[1300px] mx-auto p-12 md:flex md:items-center md:justify-between">
+            <div className="md:w-full mx-auto p-12 md:flex md:items-center md:justify-between">
               <span className="text-sm text-white sm:text-center flex-row">© 2023 <a href="https://flowbite.com/" className="md:hover:underline">CompanyName</a>. All Rights Reserved.
               </span>
               <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
