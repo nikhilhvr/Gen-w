@@ -21,9 +21,6 @@ app.get('/api/blogs',(req,res)=>{
   res.send(blogs);
 });
 
-
-
-
 const port = process.env.PORT;
 
 app.listen(port,()=>{
