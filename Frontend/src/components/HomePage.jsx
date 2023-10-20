@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/waves.css';
 
 const Home = () => {
   return (
@@ -9,103 +8,78 @@ const Home = () => {
           <meta charset="UTF-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <link rel="stylesheet" href="./waves.css" />
         </head>
         <body>
           <div className="header">
+            <div className="overflow-hidden rounded-lg h-16">
+              <div className="duration-700 ease-in-out" data-carousel-item>
+                <img src="https://i.pinimg.com/originals/34/7b/93/347b93bff5761d715b2a73316d4394ae.jpg" className="md:absolute block w-full brightness-50 md:mt-0 mt-16 sm:rounded-md" alt="background-image" />
+              </div>
+            </div>
+          </div>
 
-            <div id="default-carousel" class="w-full" data-carousel="slide">
-              <div className="overflow-hidden rounded-lg h-80">
-                <div className="duration-700 ease-in-out" data-carousel-item>
-                  <img src="https://res.allmacwallpaper.com/get/Retina-MacBook-Air-13-inch-wallpapers/Kids-Playing-With-Water-2560x1600/12925-11.jpg" className="md:absolute block w-full md:opacity-25 md:mt-0 mt-16 sm:rounded-md" alt="background-image"/>
-                </div>
+          <div className="inner-header relative pt-16 text-center">
+            <div className="grid mx-auto w-[70%] gap-10">
+              <div className="flex">
+                <div className="w-1/2"></div>
+              <div className="bg-white h-80 p-10 w-1/2 text-start">
+                <h1 className="text-black font-semibold ">What is a Water Footprint ?</h1>
+                  <p className="py-3">A water footprint is an indicator of water use that looks at both direct and indirect water use of a consumer or producer.
+
+                  The water footprint of an individual, community or business is defined as the total volume of freshwater that is used to produce the goods and services consumed by the individual or community or produced by the business.
+
+                  The increasing consumption of water and overuse of aquatic systems has already resulted in a dramatic deterioration of aquatic ecosystems worldwide. This disruption has lead to a shortage of freshwater availability in some regions of the world.
+                  </p>
+              </div>
+              </div>
+
+              <div className="bg-white h-80 p-8 w-1/2 text-start">
+                <h1 className="text-black font-semibold">How to Analyze Your Water Footprint ?</h1>
+                  <p className="py-3">
+                  The analysis of a product or corporate water footprint is the first step towards identifying the processes and activities significantly influencing your company's water consumption and that of the supplier chain.
+
+                  Based on this analysis, CompanyName will then develop a list of core indicators in close cooperation with you in order to systematically reduce risks and prevent cost increases.
+
+                  We have acquired in-depth expertise over the years regarding calculations of water footprints and water management. Water footprints of companies, products and provision of services are part of our portfolio - considering the entire supplier chain and virtual water supply.
+                  </p>
+              </div>
+
+              <div className="flex">
+                <div className="w-1/2"></div>
+              <div className=" bg-white h-80 p-10 w-1/2 text-start">
+                  <h1 className="text-black font-semibold ">Benefits of Analyzing Your Water Footprint.</h1>
+                  <p className="py-1">‣ Analyze the direct and indirect water consumption of your organization or products.</p>
+                    <p className="py-1">‣ Identify water footprint risks and develop mitigation strategies.</p>
+                    <p className="py-1">‣ Optimize the water footprint and reduce associated environmental impacts.</p>
+                    <p className="py-1">‣ Reduce costs in your supply chain and increase resource efficiency.</p>
+                    <p className="py-1">‣ Improve internal and external environmental communication with reliable information.</p>
+              </div>
+              </div>
+            </div>
+            <div className="mt-[200px]">
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-8 w-8 mx-[900px] -my-7 animate-bounce" />
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-10 w-10 mx-52 -my-9 animate-bounce" />
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-10 w-10 mx-[1000px] -my-9 animate-bounce2" />
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-9 w-9 mx-[1400px] -my-8 animate-bounce" />
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-5 w-5 mx-[700px] -my-4 animate-bounce1" />
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-11 w-11 mx-[600px] -my-10 animate-bounce2" />
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-7 w-7 mx-[1200px] -my-6 animate-bounce3" />
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-7 w-7 mx-[90px] -my-6 animate-bounce2" />
+            <div className="bg-gradient-to-r from-black via-gray-700 to-black text-white h-24 p-8 text-2xl font-bold mb-[100px]">
+              Use our interactive calculator to learn your water footprint and actions to take to reduce it.
             </div>
             </div>
 
-            <img className="absolute w-36 md:mx-[650px] md:mt-[525px] mt-[540px] mx-[100px] animate-wiggle translate-x-20 translate-y-2 z-50" src='https://cliparting.com/wp-content/uploads/2016/11/Cartoon-ship-clipart-kid.png' alt='ship' />
-            <div className="inner-header relative pt-20">
-              <h1 className="text-4xl font-bold">Taking Steps Towards Water Sustainability</h1>
-              <h3 className="py-4">Dive into Your Daily Water Consumption </h3>
-              <a href="/Questions"> 
+            <div className=" mb-[100px]">
+              <h1 className="text-4xl font-bold ">Taking Steps Towards Water Sustainability</h1>
+              <h3 className="py-4  h-20">Use our interactive calculator to learn your carbon footprint and actions to take to reduce it.</h3>
+              <a href="/Questions">
                 <button className="bg-gradient-to-tr from-black via-gray-800 to-gray-600 md:hover:bg-gradient-to-bl md:hover:scale-105 duration-200 ease-in-out text-white font-bold py-2 px-10 rounded-md">
-                Calculate Your Footprints
+                  Calculate Your Footprints
                 </button>
               </a>
             </div>
-
-            <div>
-              <svg
-                className="waves "
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                viewBox="0 24 150 28"
-                preserveAspectRatio="none"
-                shape-rendering="auto"
-              >
-                <defs>
-                  <path
-                    id="gentle-wave"
-                    d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
-                  />
-                </defs>
-                <g className="parallax ">
-                  <use xlinkHref="#gentle-wave" x="48" y="0" fill="#90E0EF" />
-                  <use xlinkHref="#gentle-wave" x="48" y="3" fill="#48CAE4" />
-                  <use xlinkHref="#gentle-wave" x="48" y="5" fill="#00B4D8" />
-                  <use xlinkHref="#gentle-wave" x="48" y="7" fill="#0096C7" />
-                </g>
-              </svg>
-            </div>
           </div>
-          <div className="content flex h-[350px]">
-
-            <div className="w-full p-4 text-center bg-[#0096C7]">
-              <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">Work fast from anywhere</h5>
-              <p className="mb-5 text-base text-white sm:text-lg">lorem ispum frdkgh ksdgy sbc asbugk dshjyaa sjdwyvd dhsvc shc shvw hwvdjvd shvsj svdsvc sb sbdhj</p>
-              <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                <a href="#" class="w-full bg-gradient-to-tl from-black via-gray-800 to-gray-600 sm:w-auto md:hover:scale-105 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 ease-in-out duration-200">
-                  <svg className="mr-3 w-8 h-8" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg>
-                  <div className="text-left md:w-24">
-                    <div className="text-xs">Download on the</div>
-                    <div className="font-sans text-sm font-semibold">Mac App Store</div>
-                  </div>
-                </a>
-                <a href="#" className="w-full sm:w-auto bg-gradient-to-tr from-black via-gray-800 to-gray-600 hover:scale-105 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:focus:ring-gray-700 ease-in-out duration-200">
-                  <svg className="mr-3 w-7 h-7" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google-play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"></path></svg>
-                    <div className="text-left md:w-24 ">
-                      <div className="text-xs">Get in on</div>
-                      <div className="font-sans text-sm font-semibold">Google Play</div>
-                    </div>
-                </a>
-              </div>
-            </div>
-
-          </div>
-          <div className="absolute md:w-[90%] md:mx-20 w-full" >
-            <div className="bg-gradient-to-r from-black via-gray-600 to-black h-0.5 rounded-full ">
-            </div>
-          </div>
-          <footer className="bg-[#0096C7]">
-            <div className="md:w-full mx-auto p-12 md:flex md:items-center md:justify-between">
-              <span className="text-sm text-white sm:text-center flex-row">© 2023 <a href="https://flowbite.com/" className="md:hover:underline">CompanyName</a>. All Rights Reserved.
-              </span>
-              <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
-                <li>
-                  <a href="#" className="mr-4 hover:underline md:mr-6 ">About</a>
-                </li>
-                <li>
-                  <a href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#" className="mr-4 hover:underline md:mr-6">Licensing</a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </footer>
-          
         </body>
       </html>
     </>
