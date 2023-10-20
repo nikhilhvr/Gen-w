@@ -1,7 +1,10 @@
 import React from "react";
-import { FaTwitter, FaLinkedin, FaInstagram, FaFacebook, FaPhone, } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { MdOutlineMessage, MdOutlineLocationOn } from "react-icons/md";
 import { ImLocation } from "react-icons/im";
-import { BiSolidMessage } from "react-icons/bi";
+import { AiOutlinePhone } from "react-icons/ai";
+import { TfiTwitter } from "react-icons/tfi";
+import { BiLogoLinkedin, BiLogoFacebook } from "react-icons/bi"
 const Contact = () => {
   return (
     <>
@@ -12,61 +15,60 @@ const Contact = () => {
           <title>Document</title>
           <link rel="stylesheet" href="output.css" />
         </head>
-        <body class="font-sans">
-          <img src="https://wallpapercave.com/wp/NUxKPlh.jpg" class=" -z-50 max-h-screen md:absolute block w-full md:opacity-30 md:mt-0 mt-16 sm:rounded-md" alt="background-image"/>
-          <div class="flex w-full min-h-screen justify-center">
-            <div class="mt-[60px] flex flex-col space-y-6 md:flex-row md:space-x-6 md:space-y-0 w-full p-8 ">
-              <div class="flex flex-col space-y-8 justify-between">
+        <body className="font-sans">
+          <img src="https://wallpapercave.com/wp/NUxKPlh.jpg" className="-z-20 h-full absolute w-full brightness-50" alt="background-image"/>
+          <div className="flex w-full h-screen justify-center">
+            <div className="mt-[70px] flex flex-row gap-12 w-full ">
+              <div className="flex flex-col space-y-8 justify-between bg-white p-10 rounded-md h-[450px] w-[55%]">
                 <div>
-                  <h1 class="font-bold text-4xl tracking-wide">Contact Us</h1>
-                  <p class="pt-2 text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Amet laboriosam laborum numquam quibusdam
+                  <h1 className=" font-extrabold font-sans text-4xl text-gray-800">Get in touch !</h1>
+                  <p className="pt-2 text-lg text-gray-500">
+                    We want to hear from you. Let us know if you have any doubts or something interesting to say and share it with us.
                   </p>
                 </div>
-                <div class="flex flex-col space-y-6 ">
-                  <div class="inline-flex space-x-2 ">
-                    <FaPhone /> +91 1234567890
+                <div className="flex text-black text-xl font-sans gap-16">
+                  <div className="">
+                    <AiOutlinePhone className="text-blue-600 text-7xl mx-auto" /> <span className="text-xl">+91 1234567890</span>
                   </div>
-                  <div class="inline-flex space-x-2">
-                    <BiSolidMessage /> <span>companyname123@gmail.com</span>
+                  <div className="">
+                    <MdOutlineMessage className="text-blue-600 text-7xl mx-auto"/><span className="text-xl">companyname123@gmail.com</span>
                   </div>
-                  <div class="inline-flex space-x-2">
-                    <ImLocation /> <span>Gurgaon, Haryana</span>
+                  <div className="">
+                    <MdOutlineLocationOn className="text-blue-600 text-7xl mx-auto" /><span className="text-xl"> Gurugram, Haryana</span>
                   </div>
                 </div>
-                <div class=" flex space-x-5 text-2xl">
-                  <div class="text-blue-700 hover:scale-110 ease-in-out duration-200 cursor-pointer">
-                    <FaTwitter />
+                <div className=" flex space-x-5 text-2xl">
+                  <div className="text-gray-500 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-500 rounded-full p-2">
+                    <TfiTwitter />
                   </div>
-                  <div class="text-blue-700 hover:scale-110 ease-in-out duration-200 cursor-pointer">
-                    <FaFacebook />
+                  <div className="text-gray-500 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-500 rounded-full p-2">
+                    <BiLogoFacebook />
                   </div>
-                  <div class="text-blue-700 hover:scale-110 ease-in-out duration-200 cursor-pointer">
+                  <div className="text-gray-500 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-500 rounded-full p-2">
                     <FaInstagram />
                   </div>
-                  <div class="text-blue-700 hover:scale-110 ease-in-out duration-200 cursor-pointer">
-                    <FaLinkedin />
+                  <div className="text-gray-500 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-500 rounded-full p-2">
+                    <BiLogoLinkedin/>
                   </div>
                 </div>
               </div>
-              <div class="md:w-100 bg-gradient-to-bl from-[#2b369a] via-[#007ecd] to-[#00b8e1] rounded-xl p-8 text-white">
-                <form action="" class="flex flex-col space-y-4">
+              <div className="md:w-100 bg-gradient-to-bl from-[#2b369a] via-[#007ecd] to-[#00b8e1] rounded-xl p-8 text-white">
+                <form action="" className="flex flex-col space-y-4">
                   <div>
-                    <label for="" class="text-sm">Your Name :</label>
-                    <input type="text" class="text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600" />
+                    <label for="" className="text-lg">Your Name :</label>
+                    <input type="text" className="text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600" />
                   </div>
                   <div>
-                    <label for="" class="text-sm"> Email Address :</label>
-                    <input type="text" class=" text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600" />
+                    <label for="" className="text-lg"> Email Address :</label>
+                    <input type="text" className=" text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600" />
                   </div>
                   <div>
-                    <label for="" class="text-sm"> Message :</label>
+                    <label for="" className="text-lg"> Message :</label>
                     <textarea
                       rows="4"
-                      class=" text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600"></textarea>
+                      className=" text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600"></textarea>
                   </div>
-                  <button class="inline-block bg-gradient-to-tr from-black via-gray-800 to-gray-600 md:hover:bg-gradient-to-bl md:hover:scale-105 duration-200 ease-in-out text-white font-bold py-2 px-10 rounded-md uppercase text-sm">Send message</button>
+                  <button className="inline-block bg-gradient-to-tr from-black via-gray-800 to-gray-600 md:hover:bg-gradient-to-bl md:hover:scale-105 duration-200 ease-in-out text-white font-bold py-2 px-10 rounded-md uppercase text-sm">Send message</button>
                 </form>
               </div>
             </div>

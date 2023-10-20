@@ -7,12 +7,22 @@ export default {
   theme: {
     extend: {
       animation: {
-        wiggle: 'wiggle 5s ease-in-out infinite',
+        bounce1: 'bounce 1s ease-in-out infinite',
+        bounce2: 'bounce 1.5s ease-in-out infinite',
+        bounce3: 'bounce 2s ease-in-out infinite'
       },
       keyframes: {
-        wiggle: {
-          '0% 100%': { transform: '(-15deg)' },
-          '50%': { transform: 'rotate(15deg)' }
+        bounce1: {
+          '0% 100%': { transform: 'scale3d(5,5,5)' },
+          '50%': { transform: 'scale3d(5)' }
+        },
+        bounce2: {
+          '0% 100%': { transform: 'scale3d(5,5,5)' },
+          '50%': { transform: 'scale3d(5)' }
+        },
+        bounce2: {
+          '0% 100%': { transform: 'scale3d(5,5,5)' },
+          '50%': { transform: 'scale3d(5)' }
         },
       },
     },

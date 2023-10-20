@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Navbar = () => {
-  return (
+    return (
     <>
-
           <nav className="fixed z-50 bg-gradient-to-r from-black via-gray-700 to-black mx-auto md:w-full">
               <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
                   <a href="https://flowbite.com/" className="flex items-center">
