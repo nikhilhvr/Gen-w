@@ -38,16 +38,16 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className=" flex space-x-5 text-2xl">
-                  <div className="text-gray-500 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-500 rounded-full p-2">
+                  <div className="text-gray-400 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-400 rounded-full p-2">
                     <TfiTwitter />
                   </div>
-                  <div className="text-gray-500 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-500 rounded-full p-2">
+                  <div className="text-gray-400 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-400 rounded-full p-2">
                     <BiLogoFacebook />
                   </div>
-                  <div className="text-gray-500 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-500 rounded-full p-2">
+                  <div className="text-gray-400 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-400 rounded-full p-2">
                     <FaInstagram />
                   </div>
-                  <div className="text-gray-500 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-500 rounded-full p-2">
+                  <div className="text-gray-400 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-400 rounded-full p-2">
                     <BiLogoLinkedin/>
                   </div>
                 </div>
