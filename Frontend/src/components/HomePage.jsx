@@ -18,7 +18,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="inner-header relative pt-16 text-center">
+          <div className="inner-header relative pt-10 text-center">
             <div className="grid mx-auto w-[70%] gap-10">
               <div className="flex">
                 <div className="w-1/2"></div>
@@ -47,7 +47,7 @@ const Home = () => {
               <div className="flex">
                 <div className="w-1/2"></div>
               <div className=" bg-white h-80 p-10 w-1/2 text-start">
-                  <h1 className="text-black font-semibold ">Benefits of Analyzing Your Water Footprint.</h1>
+                  <h1 className="text-black font-semibold mb-2">Benefits of Analyzing Your Water Footprint.</h1>
                   <p className="py-1">‣ Analyze the direct and indirect water consumption of your organization or products.</p>
                     <p className="py-1">‣ Identify water footprint risks and develop mitigation strategies.</p>
                     <p className="py-1">‣ Optimize the water footprint and reduce associated environmental impacts.</p>
@@ -56,28 +56,42 @@ const Home = () => {
               </div>
               </div>
             </div>
-            <div className="mt-[200px]">
-            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-8 w-8 mx-[900px] -my-7 animate-bounce" />
+
+            <div className="border-2 w-[90%] mx-auto p-16 mt-[100px]">
+              <div className="">
+                {/* <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-8 w-8 mx-[900px] -my-7 animate-bounce" />
             <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-10 w-10 mx-52 -my-9 animate-bounce" />
             <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-10 w-10 mx-[1000px] -my-9 animate-bounce2" />
             <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-9 w-9 mx-[1400px] -my-8 animate-bounce" />
             <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-5 w-5 mx-[700px] -my-4 animate-bounce1" />
             <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-11 w-11 mx-[600px] -my-10 animate-bounce2" />
             <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-7 w-7 mx-[1200px] -my-6 animate-bounce3" />
-            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-7 w-7 mx-[90px] -my-6 animate-bounce2" />
-            <div className="bg-gradient-to-r from-black via-gray-700 to-black text-white h-24 p-8 text-2xl font-bold mb-[100px]">
-              Use our interactive calculator to learn your water footprint and actions to take to reduce it.
+            <img alt="bubble1" src="https://images.vexels.com/media/users/3/159565/isolated/preview/1ee66c711cb6cfea5c2d570031e4b7a1-sphere-bubble-circle-illustration-by-vexels.png" className="absolute h-7 w-7 mx-[90px] -my-6 animate-bounce2" /> */}
+                <div className="text-4xl font-semibold w-[85%] mx-auto italic">
+                  Use our interactive calculator to learn your <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-blue-600 relative inline-block"><span className="relative text-black bg-blue-200">water footprint</span></span> and actions to take to reduce it.
+                </div>
+              </div>
+
+              <div className="flex w-[84%] mx-auto mt-20 gap-10">
+                <h3 className="text-gray-500 text-start">It includes your tap water use and the "virtual water" used to produce your food, electricity, gas and home goods. Based on your location in India and your own consumption pattern, you will have a unique water footprints. Please feel free to use the footprint calculator to assess your own water footprints. Time to take the required steps towards water sustainability. </h3>
+                <a href="/Questions">
+                  <button className="bg-gradient-to-t from-black via-gray-700 to-gray-500 md:hover:bg-gradient-to-b text-white font-bold h-16 w-72 rounded-md text-xl">
+                    Calculate Your Footprints
+                  </button>
+                </a>
+              </div>
             </div>
+            </div>
+            
+          <div className="border w-[90%] mx-auto mt-[100px] mb-[100px]">
+            <div className="flex font-extrabold uppercase p-2 border ">
+              <h1 className="mx-auto font-sans">Rainfall in India</h1>
+              <h1 className="mx-auto font-sans">Ground Water in India</h1>
             </div>
 
-            <div className=" mb-[100px]">
-              <h1 className="text-4xl font-bold ">Taking Steps Towards Water Sustainability</h1>
-              <h3 className="py-4  h-20">Use our interactive calculator to learn your carbon footprint and actions to take to reduce it.</h3>
-              <a href="/Questions">
-                <button className="bg-gradient-to-tr from-black via-gray-800 to-gray-600 md:hover:bg-gradient-to-bl md:hover:scale-105 duration-200 ease-in-out text-white font-bold py-2 px-10 rounded-md">
-                  Calculate Your Footprints
-                </button>
-              </a>
+            <div className="flex gap-32 divide-x divide-solid divide-gray-300 border">
+              <img alt="india map 1" src="https://www.researchgate.net/profile/Sudhakar_Reddy_C/publication/285020645/figure/fig2/AS:301142941683714@1448809480437/Annual-mean-rainfall-map-of-India.png" className=" w-1/3" />
+              <img alt="india map 1" src="https://i.pinimg.com/originals/04/b2/1c/04b21c5f9f838fb2aa85bdc3f1f59c56.png" className=" w-2/5" />
             </div>
           </div>
         </body>
