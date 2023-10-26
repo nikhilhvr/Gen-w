@@ -52,25 +52,89 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="md:w-100 bg-gradient-to-bl from-[#2b369a] via-[#007ecd] to-[#00b8e1] rounded-xl p-8 text-white">
-                <form action="" className="flex flex-col space-y-4">
-                  <div>
-                    <label for="" className="text-lg">Your Name :</label>
-                    <input type="text" className="text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600" />
-                  </div>
-                  <div>
-                    <label for="" className="text-lg"> Email Address :</label>
-                    <input type="text" className=" text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600" />
-                  </div>
-                  <div>
-                    <label for="" className="text-lg"> Message :</label>
-                    <textarea
-                      rows="4"
-                      className=" text-black ring-1 ring-gray-300 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-600"></textarea>
-                  </div>
-                  <button className="inline-block bg-gradient-to-tr from-black via-gray-800 to-gray-600 md:hover:bg-gradient-to-bl md:hover:scale-105 duration-200 ease-in-out text-white font-bold py-2 px-10 rounded-md uppercase text-sm">Send message</button>
-                </form>
-              </div>
+              <form action="" class="rounded-xl bg-gradient-to-tr from-[#2b369a] via-[#007ecd] to-[#00b8e1] p-10 h-[450px] space-y-4">
+                    <div class="grid w-full gap-y-4 md:gap-x-4 lg:grid-cols-2">
+                      <div class="grid w-full  items-center gap-1.5">
+                        <label
+                          class="text-start text-sm font-medium leading-none text-white peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                          for="first_name"
+                        >
+                          First Name
+                        </label>
+                        <input
+                          class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                          type="text"
+                          id="first_name"
+                          placeholder="First Name"
+                        />
+                      </div>
+                      <div class="grid w-full  items-center gap-1.5">
+                        <label
+                          class="text-sm font-medium leading-none text-white text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                          for="last_name"
+                        >
+                          Last Name
+                        </label>
+                        <input
+                          class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                          type="text"
+                          id="last_name"
+                          placeholder="Last Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="grid w-full  items-center gap-1.5">
+                      <label
+                        class="text-sm font-medium leading-none text-white text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        for="email"
+                      >
+                        Email
+                      </label>
+                      <input
+                        class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                        type="text"
+                        id="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="grid w-full  .items-center {
+    align-items: center;
+} gap-1.5">
+                      <label
+                        class="text-sm font-medium leading-none text-white text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        for="phone_number"
+                      >
+                        Phone number
+                      </label>
+                      <input
+                        class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                        type="tel"
+                        id="phone_number"
+                        placeholder="Phone number"
+                      />
+                    </div>
+                    <div class="grid w-full  items-center gap-1.5">
+                      <label
+                        class="text-sm font-medium leading-none text-white text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        for="message"
+                      >
+                        Message
+                      </label>
+                      <textarea
+                        class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                        id="message"
+                        placeholder="Leave us a message"
+                        cols="3"
+                      ></textarea>
+                    </div>
+                    <button
+                      type="button"
+                      class="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                    >
+                      Send Message
+                    </button>
+                  </form>
+
             </div>
           </div>
           <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
