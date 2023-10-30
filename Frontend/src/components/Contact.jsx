@@ -1,10 +1,9 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { MdOutlineMessage, MdOutlineLocationOn } from "react-icons/md";
-import { ImLocation } from "react-icons/im";
-import { AiOutlinePhone } from "react-icons/ai";
-import { TfiTwitter } from "react-icons/tfi";
-import { BiLogoLinkedin, BiLogoFacebook } from "react-icons/bi"
+import { FaFacebookSquare, FaPhone } from "react-icons/fa";
+import { FaSquareXTwitter, FaLinkedin, FaLocationDot } from "react-icons/fa6";
+import { PiInstagramLogoFill } from "react-icons/pi";
+import { RiMessageFill } from "react-icons/ri"
+
 const Contact = () => {
   return (
     <>
@@ -16,43 +15,44 @@ const Contact = () => {
           <link rel="stylesheet" href="output.css" />
         </head>
         <body className="font-sans">
-          <img src="https://wallpapercave.com/wp/NUxKPlh.jpg" className="-z-20 h-full absolute w-full brightness-50" alt="background-image"/>
-          <div className="flex w-full h-screen justify-center">
-            <div className="mt-[70px] flex flex-row gap-12 w-full ">
-              <div className="flex flex-col space-y-8 justify-between bg-white p-10 rounded-md h-[450px] w-[55%]">
+          <div className="flex w-full h-full justify-center">
+            <div className="mt-[150px] w-[80%] ">
+              <span className="mb-[100px] before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-blue-600 relative inline-block">
+              <div className="relative space-y-10 justify-between bg-blue-200 p-16">
                 <div>
                   <h1 className=" font-extrabold font-sans text-4xl text-gray-800">Get in touch !</h1>
-                  <p className="pt-2 text-lg text-gray-500">
-                    We want to hear from you. Let us know if you have any doubts or something interesting to say and share it with us.
+                  <p className="pt-2 text-lg text-gray-600 w-[80%] mx-auto">
+                    We want to hear from you. Let us know if you have any doubts or something interesting to say and share it with us. Here is how you can reach us : 
                   </p>
                 </div>
-                <div className="flex text-black text-xl font-sans gap-16">
-                  <div className="">
-                    <AiOutlinePhone className="text-blue-600 text-7xl mx-auto" /> <span className="text-xl">+91 1234567890</span>
+                <div className="flex text-black text-xl font-sans justify-between p-2 w-[80%] mx-auto">
+                  <div className="font">
+                    <FaPhone className="text-blue-600 text-7xl mx-auto " /> <span className="text-xl">+91 1234567890</span>
                   </div>
                   <div className="">
-                    <MdOutlineMessage className="text-blue-600 text-7xl mx-auto"/><span className="text-xl">companyname123@gmail.com</span>
+                    <RiMessageFill className="text-blue-600 text-7xl mx-auto"/><span className="text-xl">companyname123@gmail.com</span>
                   </div>
                   <div className="">
-                    <MdOutlineLocationOn className="text-blue-600 text-7xl mx-auto" /><span className="text-xl"> Gurugram, Haryana</span>
+                    <FaLocationDot className="text-blue-600 text-7xl mx-auto" /><span className="text-xl"> Gurugram, Haryana</span>
                   </div>
                 </div>
-                <div className=" flex space-x-5 text-2xl">
-                  <div className="text-gray-400 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-400 rounded-full p-2">
-                    <TfiTwitter />
+                <div className=" flex space-x-6 text-2xl pt-10">
+                  <div className="text-black ease-in-out duration-200 cursor-pointer">
+                    <FaSquareXTwitter />
                   </div>
-                  <div className="text-gray-400 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-400 rounded-full p-2">
-                    <BiLogoFacebook />
+                  <div className="text-black ease-in-out duration-200 cursor-pointer">
+                    <FaFacebookSquare />
                   </div>
-                  <div className="text-gray-400 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-400 rounded-full p-2">
-                    <FaInstagram />
+                  <div className="text-black ease-in-out duration-200 cursor-pointer">
+                    <PiInstagramLogoFill />
                   </div>
-                  <div className="text-gray-400 hover:text-black hover:border-black ease-in-out duration-200 cursor-pointer border-2 border-gray-400 rounded-full p-2">
-                    <BiLogoLinkedin/>
+                  <div className="text-black ease-in-out duration-200 cursor-pointer">
+                    <FaLinkedin/>
                   </div>
                 </div>
               </div>
-              <form action="" class="rounded-xl bg-gradient-to-tr from-[#2b369a] via-[#007ecd] to-[#00b8e1] p-10 h-[450px] space-y-4">
+              </span>
+              <form action="" class="w-[70%] mx-auto rounded-xl bg-gradient-to-tr from-[#2b369a] via-[#007ecd] to-[#00b8e1] p-10 h-[450px] space-y-4">
                     <div class="grid w-full gap-y-4 md:gap-x-4 lg:grid-cols-2">
                       <div class="grid w-full  items-center gap-1.5">
                         <label
