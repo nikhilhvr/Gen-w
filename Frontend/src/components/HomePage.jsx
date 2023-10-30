@@ -11,18 +11,17 @@ const Home = () => {
         </head>
         <body>
           <div className="header">
-            <div className="overflow-hidden rounded-lg h-16">
-              <div className="duration-700 ease-in-out" data-carousel-item>
-                <img src="https://i.pinimg.com/originals/34/7b/93/347b93bff5761d715b2a73316d4394ae.jpg" className="md:absolute block w-full brightness-50 md:mt-0 mt-16 sm:rounded-md" alt="background-image" />
+            <div className="overflow-hidden h-16">
+              <div className="" data-carousel-item>
+                <img src="https://i.pinimg.com/originals/34/7b/93/347b93bff5761d715b2a73316d4394ae.jpg" className="md:absolute block w-full brightness-50 md:mt-0 mt-16 sm:rounded-md md:rounded-none" alt="background-image" />
               </div>
             </div>
           </div>
 
           <div className="inner-header relative pt-10 text-center">
-            <div className="grid mx-auto w-[70%] gap-10">
-              <div className="flex">
-                <div className="w-1/2"></div>
-              <div className="bg-white h-80 p-10 w-1/2 text-start">
+            <div className="grid mx-auto w-[70%] space-y-12">
+              <div className="flex justify-end">
+              <div className="bg-white p-10 w-4/5 text-start opacity-50 hover:opacity-100 hover:scale-110 duration-200 ease-in-out">
                 <h1 className="text-black font-semibold ">What is a Water Footprint ?</h1>
                   <p className="py-3">A water footprint is an indicator of water use that looks at both direct and indirect water use of a consumer or producer.
 
@@ -33,7 +32,7 @@ const Home = () => {
               </div>
               </div>
 
-              <div className="bg-white h-80 p-8 w-1/2 text-start">
+              <div className="bg-white p-10 w-4/5 text-start opacity-50 hover:opacity-100 hover:scale-110 duration-200 ease-in-out">
                 <h1 className="text-black font-semibold">How to Analyze Your Water Footprint ?</h1>
                   <p className="py-3">
                   The analysis of a product or corporate water footprint is the first step towards identifying the processes and activities significantly influencing your company's water consumption and that of the supplier chain.
@@ -44,9 +43,8 @@ const Home = () => {
                   </p>
               </div>
 
-              <div className="flex">
-                <div className="w-1/2"></div>
-              <div className=" bg-white h-80 p-10 w-1/2 text-start">
+              <div className="flex justify-end">
+                <div className=" bg-white p-10 w-4/5 text-start opacity-50 hover:opacity-100 hover:scale-110 duration-200 ease-in-out">
                   <h1 className="text-black font-semibold mb-2">Benefits of Analyzing Your Water Footprint.</h1>
                   <p className="py-1">‣ Analyze the direct and indirect water consumption of your organization or products.</p>
                     <p className="py-1">‣ Identify water footprint risks and develop mitigation strategies.</p>
