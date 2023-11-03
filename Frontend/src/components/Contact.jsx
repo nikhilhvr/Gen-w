@@ -16,8 +16,8 @@ const Contact = () => {
         </head>
         <body className="font-sans">
           <div className="flex w-full h-full justify-center">
-            <div className="mt-[150px] w-[80%] ">
-              <span className="mb-[100px] before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-blue-600 relative inline-block">
+            <div className="mt-[150px] w-full ">
+              <span className="mb-[100px] w-[80%] before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-blue-600 relative inline-block">
               <div className="relative space-y-10 justify-between bg-blue-200 p-16">
                 <div>
                   <h1 className=" font-extrabold font-sans text-4xl text-gray-800">Get in touch !</h1>
@@ -36,103 +36,105 @@ const Contact = () => {
                     <FaLocationDot className="text-blue-600 text-7xl mx-auto" /><span className="text-xl"> Gurugram, Haryana</span>
                   </div>
                 </div>
-                <div className=" flex space-x-6 text-2xl pt-10">
-                  <div className="text-black ease-in-out duration-200 cursor-pointer">
+                <div className=" flex space-x-6 text-3xl pt-10">
+                  <div className="text-black hover:scale-105 ease-in-out duration-200 cursor-pointer">
                     <FaSquareXTwitter />
                   </div>
-                  <div className="text-black ease-in-out duration-200 cursor-pointer">
+                    <div className="text-black hover:scale-105 ease-in-out duration-200 cursor-pointer">
                     <FaFacebookSquare />
                   </div>
-                  <div className="text-black ease-in-out duration-200 cursor-pointer">
+                    <div className="text-black hover:scale-105 ease-in-out duration-200 cursor-pointer">
                     <PiInstagramLogoFill />
                   </div>
-                  <div className="text-black ease-in-out duration-200 cursor-pointer">
+                    <div className="text-black hover:scale-105 ease-in-out duration-200 cursor-pointer">
                     <FaLinkedin/>
                   </div>
                 </div>
               </div>
               </span>
-              <form action="" class="w-[70%] mx-auto rounded-xl bg-gradient-to-tr from-[#2b369a] via-[#007ecd] to-[#00b8e1] p-10 h-[450px] space-y-4">
-                    <div class="grid w-full gap-y-4 md:gap-x-4 lg:grid-cols-2">
-                      <div class="grid w-full  items-center gap-1.5">
+              <form action="" className=" border-2 mx-auto w-[80%] p-16 space-y-4">
+                    <div class="grid gap-y-4 md:gap-x-4 lg:grid-cols-2 w-[70%] mx-auto">
+                      <div class="grid w-full items-center gap-1.5">
                         <label
-                          class="text-start text-sm font-medium leading-none text-white peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                          class="text-start text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                           for="first_name"
                         >
                           First Name
                         </label>
                         <input
-                          class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                          class="flex h-10 w-full px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 border-2 dark:text-black text-semibold dark:focus:ring-black dark:focus:ring-offset-gray-900 text-start"
                           type="text"
                           id="first_name"
-                          placeholder="First Name"
+                          placeholder="Enter your First Name"
                         />
                       </div>
-                      <div class="grid w-full  items-center gap-1.5">
+                      <div class="grid w-full items-center gap-1.5">
                         <label
-                          class="text-sm font-medium leading-none text-white text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                          class="text-base font-medium leading-none text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                           for="last_name"
                         >
                           Last Name
                         </label>
                         <input
-                          class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                      class="flex h-10 w-full px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 border-2  dark:text-black dark:focus:ring-black dark:focus:ring-offset-gray-900 text-start"
                           type="text"
                           id="last_name"
-                          placeholder="Last Name"
+                          placeholder="Enter your Last Name"
                         />
                       </div>
                     </div>
-                    <div class="grid w-full  items-center gap-1.5">
+                <div className="w-[70%] mx-auto space-y-5">
+                    <div class="grid w-full items-center gap-1.5">
                       <label
-                        class="text-sm font-medium leading-none text-white text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        class="text-base font-medium leading-none text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                         for="email"
                       >
                         Email
                       </label>
                       <input
-                        class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                    class="flex h-10 w-full px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 border-2 dark:text-black dark:focus:ring-black dark:focus:ring-offset-gray-900 text-start"
                         type="text"
                         id="email"
-                        placeholder="Email"
+                        placeholder="Enter your active Email ID"
                       />
                     </div>
-                    <div class="grid w-full  .items-center {
+                    <div class="grid w-full .items-center {
     align-items: center;
 } gap-1.5">
                       <label
-                        class="text-sm font-medium leading-none text-white text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        class="text-base font-medium leading-none text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                         for="phone_number"
                       >
                         Phone number
                       </label>
                       <input
-                        class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                    class="flex h-10 w-full px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 border-2  dark:text-black dark:focus:ring-black dark:focus:ring-offset-gray-900 text-start"
                         type="tel"
                         id="phone_number"
-                        placeholder="Phone number"
+                        placeholder="Enter your Phone number"
                       />
                     </div>
-                    <div class="grid w-full  items-center gap-1.5">
+                    <div class="grid w-full items-center gap-1.5">
                       <label
-                        class="text-sm font-medium leading-none text-white text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        class="text-base font-medium leading-none text-start peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                         for="message"
                       >
                         Message
                       </label>
                       <textarea
-                        class="flex h-10 w-full rounded-md px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-black dark:focus:ring-offset-gray-900 bg-white text-start"
+                    class="flex h-10 w-full px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 border-2  dark:text-black dark:focus:ring-black dark:focus:ring-offset-gray-900 text-start"
                         id="message"
-                        placeholder="Leave us a message"
+                        placeholder="Leave us a message "
                         cols="3"
                       ></textarea>
                     </div>
                     <button
                       type="button"
-                      class="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                      class="w-full text-white rounded-md bg-black px-3 py-2 text-sm font-semibold hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                     >
                       Send Message
                     </button>
+                </div>
                   </form>
 
             </div>
