@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/waves.css';
+import { ScrollToTop } from './ScrollToTop';
 
 const Footer = () => {
   return (
@@ -30,6 +31,7 @@ const Footer = () => {
 
         <div className="content flex h-[330px]">
             <div className="w-full p-4 text-center bg-[#0096C7] ">
+                <ScrollToTop/>
                 <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">Work fast from anywhere</h5>
                 <p className="mb-5 text-base text-white sm:text-lg">lorem ispum frdkgh ksdgy sbc asbugk dshjyaa sjdwyvd dhsvc shc shvw hwvdjvd shvsj svdsvc sb sbdhj</p>
                 <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
@@ -62,7 +64,7 @@ const Footer = () => {
           <footer className="bg-[#0096C7]">
             <div className="md:w-full mx-auto p-12 md:flex md:items-center md:justify-between">
                 <span className="text-sm text-white sm:text-center flex-row">© 2023 
-                    <a href="https://flowbite.com/" className="md:hover:underline">CompanyName</a>. All Rights Reserved.
+                    <a href="https://flowbite.com/" className="md:hover:underline"> CompanyName </a>- All Rights Reserved.
                 </span>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
                     <li>
